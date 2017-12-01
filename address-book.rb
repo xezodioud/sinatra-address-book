@@ -1,9 +1,7 @@
 require 'sinatra/base'
 
 class AddressBook < Sinatra::Base
-	get '/'  do
-		'hello Estee!'
-	end
+  get '/' do
+    'Hello World!'
+  end
 end
-
-
